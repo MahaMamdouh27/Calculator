@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="calculator">
+    <div class="container py-5">
+        <div class="bgcalc d-flex justify-content-center align-items-center">
+            <div class="calcContent">
+                <div class="inputBox container">
+                    <input type="text" class="form-control my-3 py-2" id="input" value="0">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="calcItems">
+                        <div class="col my-2">
+                            <button type="button" class="btn calcbtn">7</button>
+                            <button type="button" class="btn calcbtn">8</button>
+                            <button type="button" class="btn calcbtn">9</button>
+                            <button type="button" class="btn calcbtn" id="operator">*</button>
+                        </div>
+                        <div class="col my-2">
+                            <button type="button" class="btn calcbtn">4</button>
+                            <button type="button" class="btn calcbtn">5</button>
+                            <button type="button" class="btn calcbtn">6</button>
+                            <button type="button" class="btn calcbtn" id="operator">-</button>
+                        </div>
+                        <div class="col my-2">
+                            <button type="button" class="btn calcbtn">1</button>
+                            <button type="button" class="btn calcbtn">2</button>
+                            <button type="button" class="btn calcbtn">3</button>
+                            <button type="button" class="btn calcbtn" id="operator">+</button>
+                        </div>
+                        <div class="col my-2">
+                            <button type="button" class="btn calcbtn operator" id="clearAll">C</button>
+                            <button type="button" class="btn calcbtn">0</button>
+                            <button type="button" class="btn calcbtn" id="operator">/</button>
+                            <button type="button" class="btn calcbtn" id="operator">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

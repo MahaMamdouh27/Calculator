@@ -1,0 +1,79 @@
+body {
+  background-color: #f4eeff;
+}
+
+* {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+.bgcalc {
+  width: 100%;
+}
+
+.calcContent {
+  width: 38%;
+  padding-block: 55px;
+  background-color: #424874;
+  border-radius: 20px;
+  box-shadow: 15px 15px 50px #424874 !important;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 30px !important;
+  transition: all 0.5s ease-in-out;
+  background-color: #f4eeff !important;
+  border-radius: 50px !important;
+  color: #424874 !important;
+}
+
+button:hover {
+  background-color: #a6b1e1 !important;
+  color: #424874 !important;
+}
+
+.inputBox {
+  width: 75%;
+  margin: auto;
+}
+
+input {
+  margin: auto;
+  height: 50px;
+  background-color: #f4eeff !important;
+  box-shadow: none !important;
+}
+
+.operator,
+#operator {
+  background-color: #a6b1e1 !important;
+  color: #f4eeff !important;
+}
+
+@media screen and (max-width: 992px) {
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px !important;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 15px !important;
+      }
+      .calcContent {
+        width: 50%;
+      }
+}
+
+@media screen and (max-width: 576px) {
+      .calcContent {
+        width: 75%;
+      }
+
+}
